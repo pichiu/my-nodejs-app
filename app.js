@@ -6,7 +6,7 @@ module.exports = (/*options*/) => {
   app.get('/', (req, res) => {
     // Use req.log (a `pino` instance) to log JSON:
     req.log.info({message: 'Hello!'});
-    res.send('Hello from webhook rename!');
+    res.send('Hello from webhook fix docker!');
   });
 
   return app;
